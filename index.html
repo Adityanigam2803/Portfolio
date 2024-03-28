@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ccabab16d4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/Logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Frontend Developer</p>
+            <h1>Hi, I'm <span>Aditya</span><br>Nigam From Lucknow</h1>
+        </div>
+    </div>
+ </div>  
+ <!-- -------------------about me---------------- -->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/aboutme.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1><br>
+                <p>
+                    "I am extremely proficient in Front-End Development using HTML5,
+                    Cascade Style Sheets(CSS3), Bootstrap, Advance Javascript, Angular
+                    And apart from Front-End, I have good knowledge in Back-End using 
+                    PHP & MySQL as well as in designing using Adobe XD, Sketch & Figma,
+                    and continuously engage in trying to extend my skills with new 
+                    technology.".<br>
+                    <!-- <br>
+                    My journey in HTML, CSS, and JavaScript has been a continuous 
+                    exploration of innovative techniques and emerging trends. 
+                    Whether it's diving deep into responsive design for a seamless 
+                    mobile experience or harnessing the power of frameworks like 
+                    React or Angular to build dynamic interfaces, I'm dedicated to 
+                    crafting solutions that delight users and elevate brands. -->
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Frontend Developer</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>| Java | React.js | Angular.js | HTML5 | GitHub | Bootstrap |</li>
+                        <!-- <li><span>App Development</span><br>Building Android/iOS apps</li> -->
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2021 - current</span><br>Frontend Developer at Just Ready</li>
+                        <!-- <li><span>2019 - 2021</span><br>Team lead at StarApp LLC.</li>
+                        <li><span>2017 - 2019</span><br>App Developer at Infosis</li> -->
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2016 - 2020</span><br>Dit University</li>
+                        <li><span>2015 - 2016</span><br>XII from CBSE BOARD</li>
+                        <li><span>2014 - 2015</span><br>XI from CBSE BOARD</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div> 
+
+ <!-- -------------services---------------- -->
+
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title" >My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>My journey in HTML, CSS, and JavaScript has been a continuous 
+                    exploration of innovative techniques and emerging trends.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>My journey in HTML, CSS, and JavaScript has been a continuous 
+                    exploration of innovative techniques and emerging trends.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>My journey in HTML, CSS and JavaScript has been a continuous 
+                    exploration of innovative techniques and emerging trends.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- -------------portfolio----------- -->
+
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work-1.png">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>This Web App provides users with real-time weather
+                        information, forecasts, and other weather-related data.
+                        </p>
+                    <a href="https://adityanigam2803.github.io/Weather-App/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app tells accurate Weather around the world.
+                        Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app tells accurate Weather around the world.
+                        Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+
+ <!-- ---------------------contact------------------- -->
+
+ <div id="contact">
+    <div class="contaienr">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Adityanigam9281@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91-790-558-2396</p>
+                <div class="social-icon">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://github.com/Adityanigam2803"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/aditya-nigam-82b361211/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/Aditya_nigam_CV.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Made by Aditya Nigam.</p>
+    </div>
+ </div>
+
+ <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+
+ </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbweUR22E6Qqfr5GGBQU3MLs8lT2IXLUiCwzMDeLhiJs80w16UXbMRWK4gAiJ1OLzkKR/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+  </script>
+</body>
+</html>
