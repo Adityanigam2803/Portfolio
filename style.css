@@ -463,13 +463,15 @@ nav .fa-solid{
     left: 25px;
     cursor: pointer;
     }
-    .logo{
+ .logo{
         width: 300px;
         height: 50vh;
         mix-blend-mode: lighten;
         color: #fff;
         margin-right: -100px;
         margin-left: -50px;
+        margin-bottom: -50px;
+        margin-top: 10px;
     }
     /* -----------------about me------------------- */
     .about-col-1 img {
