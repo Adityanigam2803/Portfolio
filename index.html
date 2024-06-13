@@ -24,7 +24,9 @@
         </nav>
         <div class="header-text">
             <p>Frontend Developer</p>
-            <h1>Hi, I'm <span>Aditya</span><br>Nigam From Lucknow</h1>
+            <h1>Hi, I'm <span class="auto-type"></span>
+                <!-- <br> From Lucknow -->
+            </h1>
         </div>
     </div>
  </div>  
@@ -233,7 +235,35 @@
     function closemenu(){
         sidemenu.style.right = "-200px";
     }
+ 
+   </script>
+  <!-- <style type="text/css" data-typed-js-css="true">
+    .typed-cursor{
+      opacity: 1;
+    }
+    .typed-cursor.typed-cursor--blink{
+      animation: typedjsBlink 0.7s infinite;
+      -webkit-animation: typedjsBlink 0.7s infinite;
+              animation: typedjsBlink 0.7s infinite;
+    }
+    @keyframes typedjsBlink{
+      50% { opacity: 0.0; }
+    }
+    @-webkit-keyframes typedjsBlink{
+      0% { opacity: 1; }
+      50% { opacity: 0.0; }
+      100% { opacity: 1; }
+  </style> -->
 
-  </script>
+  <script src ="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script>
+        var typed = new Typed(".auto-type",{
+            strings: ["Aditya Nigam", "Web Developer", "App Designer"],
+            typeSpeed : 50,
+            backSpeed : 50,
+            loop : true 
+        })
+   </script>
 </body>
 </html>
