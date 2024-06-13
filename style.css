@@ -23,11 +23,71 @@ body{
 .container{
     padding: 10px 10%;
 }
+/* .text-purple-700 {
+    --tw-text-opacity: 1;
+    color: (#ff004f / var(--tw-text-opacity));
+    } */
+/* .typed-cursor{
+    opacity: 1;
+} */
+/* .typed-cursor.typed-cursor--blink {
+    animation: 0.7s infinite;
+    -webkit-animation: Blink 0.7s infinite;
+    animation: 0.7s infinite;
+} */
+/* *:after:before {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59,130,246,.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+} */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: warp;
+}
+h1::after:hover{
+    display: block;
+    
 }
 .logo{
     width: 350px;
@@ -75,10 +135,11 @@ nav ul li{
 }
 .header-text h1 span{
     color: #ff004f;
+    /* animation: typing 1.5s steps(10) infinite; */
 }
 .header-text p{
     font-size: 25px;
-    color: #ff004f;
+    color: #fff;
 }
 /* --------------about me-------------- */
 #about{
@@ -105,7 +166,6 @@ nav ul li{
     font-weight: 600;
     color: #fff;
 }
-
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
@@ -163,7 +223,7 @@ nav ul li{
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
-    transition: background 0.5s, transform 0.5s;
+    transition: 0.5s, transform 0.5s;
 }
 .services-list div i{
     font-size: 50px;
@@ -191,7 +251,6 @@ nav ul li{
 #portfolio{
     padding: 50px 0;
 }
-
 .work-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -211,7 +270,7 @@ nav ul li{
 }
 .layer{
     width: 100%;
-    height: 0%;
+    height: 0;
     background: linear-gradient(rgb(0,0,0,0.6), #ff004f);
     border-radius: 10px;
     position: absolute;
